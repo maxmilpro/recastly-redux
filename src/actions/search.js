@@ -12,6 +12,7 @@ var handleVideoSearch = (q) => {
       max: 5
     }, (videos) => {
       dispatch(changeVideoList(videos));
+      dispatch(changeVideo(videos[0]));
     });
   };
 };

@@ -9,7 +9,7 @@
     "test": "live-server --open=./SpecRunner.html --port=8081",
     "start": "live-server",
     "build": "webpack -d --watch",
-    "bundle": "npm run test & npm run start & npm run build"
+    "bundle": "npm run build & npm run start & npm run test"
   },
   "dependencies": {
     "babel-core": "6.24.1",
